@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>SimpleEvaluations-12345678-1234-1234-1234-123456789012</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AwesomeAssertions" Version="9.1.0" />
+    <PackageReference Include="Azure.AI.OpenAI" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.AI.Evaluation" Version="9.7.0" />
+    <PackageReference Include="Microsoft.Extensions.AI.Evaluation.NLP" Version="9.7.0-preview.1.25356.2" />
+    <PackageReference Include="Microsoft.Extensions.AI.Evaluation.Quality" Version="9.7.0" />
+    <PackageReference Include="Microsoft.Extensions.AI.Evaluation.Reporting" Version="9.7.0" />
+    <PackageReference Include="Microsoft.Extensions.AI.Evaluation.Safety" Version="9.7.0-preview.1.25356.2" />
+    <PackageReference Include="Microsoft.Extensions.AI.OpenAI" Version="9.7.1-preview.1.25365.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.7" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="9.0.7" />
+    <PackageReference Include="MSTest" Version="3.10.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="3.10.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+  </ItemGroup>
+
+</Project>
