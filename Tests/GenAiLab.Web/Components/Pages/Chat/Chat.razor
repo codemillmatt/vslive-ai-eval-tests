@@ -144,7 +144,7 @@
     {
         var diskReportConfiguration = Microsoft.Extensions.AI.Evaluation.Reporting.Storage.DiskBasedReportingConfiguration.Create(
             storageRootPath: @"C:\TestReport",
-            evaluators: [new CoherenceEvaluator(), new RelevanceEvaluator(), new CompletenessEvaluator(), new RetrievalEvaluator()],
+            evaluators: [new CoherenceEvaluator(), new RelevanceEvaluator(), new FluencyEvaluator()],
             chatConfiguration: evalChat,
             enableResponseCaching: true,
             executionName: "default",
